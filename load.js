@@ -1,7 +1,4 @@
-var head = document.getElementsByTagName('head')[0];
-
-//Generate a style tag
-var style = document.createElement('script');
-style.href = '//cdn.ckeditor.com/4.5.2/standard/ckeditor.js';
-
-head.appendChild(style);
+var script = document.createElement('script');
+script.setAttribute('type', 'text/javascript');  // optional
+script.setAttribute('src', 'url/to/the/cdn/script.js');
+document.getElementsByTagName('head')[0].appendChild(script);
