@@ -7,5 +7,5 @@ Package.describe({
 
 Package.onUse(function (api){
   api.versionsFrom("METEOR@0.9.0");
-  api.addFiles('load.js', 'browser');
+  api.addFiles('load.js', 'web.browser');
 });
