@@ -1,7 +1,7 @@
 Package.describe({
   name: "lsun:ckeditor",
   summary: "Latest version CKEditor loaded via CDN",
-  version: "4.5.2_2",
+  version: "4.5.2_3",
   git: "https://github.com/liangsun/meteor-ckeditor.git"
 });
 
